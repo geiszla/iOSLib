@@ -6,7 +6,7 @@
         public string Name;
 
         private Album() { }
-        public Album(int id, string name)
+        internal Album(int id, string name)
         {
             Id = id;
             Name = name;

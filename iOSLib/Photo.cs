@@ -39,7 +39,7 @@ namespace IOSLib
 
         #region Constructors
         private Photo() { }
-        public Photo(Photos parent, int id, int additionalId, string name, string extension, string mediaType, string fileType, iDevice device, string path, int size,
+        internal Photo(Photos parent, int id, int additionalId, string name, string extension, string mediaType, string fileType, iDevice device, string path, int size,
             double creationTimeSeconds, DateTime creationTime, double modificationTimeSeconds, DateTime modificationTime, List<Album> albumList)
         {
             this.parent = parent;

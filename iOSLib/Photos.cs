@@ -25,7 +25,7 @@ namespace IOSLib
 
         internal string tempFolder;
 
-        public Photos(iDevice currDevice)
+        internal Photos(iDevice currDevice)
         {
             device = currDevice;
 
